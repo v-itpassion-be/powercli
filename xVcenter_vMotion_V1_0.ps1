@@ -10,9 +10,9 @@ via Powershell/PowerCLI
 ------------
 
 This script was written first in the context of Moving VM across vCenters that are part of different SSO domains to address Web GUI limitation
-Web GUI connect to multiple vCenters which reside in different SSO domains. Only vCenters in same SSO (Enhanced Linked Mode) is functional.
+Web GUI cannot connect to multiple vCenters which reside in different SSO domains. Only vCenters in same SSO (Enhanced Linked Mode) is functional via GUI.
 
-VMware team build a Fling that do the same thing (even in a better way), but as this tool is experimental (as all others flings), it should not be used in Production environment
+VMware team built a Fling that do the same thing (even in a better way), but as this tool is experimental (as all others flings), it should not be used in Production environment
 Please refer to this link to get a better view on this VMware fling and limitations (https://flings.vmware.com/cross-vcenter-workload-migration-utility#requirements).
 This script is supportable as it uses only PowerShell/PowerCLI to reach the objective of moving a VM from vCenter A to vCenter B.
 
