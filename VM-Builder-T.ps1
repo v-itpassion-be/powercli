@@ -159,5 +159,5 @@ Confirmation of the creation of the VM and its' powerstate
     Only 1 VM at a time can be deployed with this script
     
     *AUTHOR
-    Michaël Militoni @ NRB
+    Michaël Militoni
 #>
