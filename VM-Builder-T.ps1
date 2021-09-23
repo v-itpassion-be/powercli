@@ -119,7 +119,7 @@ Step 1: Sysadmin connects to a specific vcenter where to build the new VM.
 Step 2: Sysadmin will input all the required information to permit the script to build the VM.
 Step 3: The script builds the VM and ask the user if he needs additional modifications on the VM (CPU/RAM).
 Step 4: The script asks the user if it needs to start the new built VM.
-Step 4: The script auto-shutdown
+Step 5: The script auto-shutdown
 
 Error handling is managed by to kind of actions:
 ************************************************
